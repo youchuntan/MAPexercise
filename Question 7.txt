@@ -1,0 +1,10 @@
+Question 7  
+Determine whether the following syntax for a function is valid:  
+a.  
+int getSum(int a, int b)  - valid
+b.  
+boolean checkVal(required bool c)  - invalid
+c.  
+double getSum2({required int d, double e = 0.5})  - valid
+d.  
+String showText(String name = null, String name2 = ’Phantom’)  - invalid
