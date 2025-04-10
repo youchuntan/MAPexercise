@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(const MyApp());
 
-  Car myCar = Car("Tesla", "Model 3", "Red");
-  myCar.registrationInfo("ABC1234", "user001");
+  Car myCar = Car("Tesla", "Model 3", "Blue");
+  myCar.registrationInfo("JAA 1", "user001");
 
 }
 
@@ -78,7 +78,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
       ),
-      home: const MyHomePage(title: 'Tan You Chun First App'),
+      home: const MyHomePage(title: "Tan You Chun's First App"),
     );
   }
 }
